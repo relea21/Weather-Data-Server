@@ -1,0 +1,9 @@
+Relea Florin 341C3
+
+Ca baza de date am folosit MongoDB, iar ca utilitar mongo-express
+Initierea bazei de date se realizeaza prin initialize_database()
+care verifica daca tabele au fost create anterior. Persistenta datelor se face prin 
+utilizarea unui volum.
+Functile de stergere asigura stergerea in cascada
+Pentru a salva indicile urmator am folosit o noua tabela care retine pentru fiecare tabel ultimul 
+indice folosit

@@ -1,0 +1,17 @@
+*.pyc
+*.pyo
+__pycache__/
+
+.git/
+.idea/
+
+*.log
+
+.env
+config/
+
+*.tmp
+
+Dockerfile
+docker-compose.yml
+node_modules/
